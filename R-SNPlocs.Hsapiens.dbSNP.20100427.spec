@@ -9,12 +9,11 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-IRanges R-GenomicRanges 
-Requires:         R-methods R-IRanges R-GenomicRanges 
-Requires:         R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg19 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-IRanges R-GenomicRanges
-BuildRequires:    R-methods R-IRanges R-GenomicRanges 
-BuildRequires:    R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg19 
+Requires:         R-IRanges R-GenomicRanges R-methods
+Requires:         R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg19
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-IRanges R-GenomicRanges R-methods
+BuildRequires:    R-Biostrings R-BSgenome R-BSgenome.Hsapiens.UCSC.hg19
 
 %description
 SNP locations and alleles for Homo sapiens extracted from dbSNP BUILD
