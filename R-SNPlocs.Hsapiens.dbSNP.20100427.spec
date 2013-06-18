@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.99.6
-Release:          1
+Release:          2
 Summary:          SNP locations for Homo sapiens (dbSNP BUILD 131)
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
